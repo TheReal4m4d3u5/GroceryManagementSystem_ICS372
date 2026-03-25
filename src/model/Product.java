@@ -54,6 +54,8 @@ public abstract class Product {
     public void reduceStock(int amount) {
         if (amount > 0 && amount <= quantity) {
             quantity -= amount;
+            
+            
         }
     }
 
