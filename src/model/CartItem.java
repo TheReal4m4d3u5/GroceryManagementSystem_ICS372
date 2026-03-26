@@ -31,6 +31,6 @@ public class CartItem {
     public String toString() {
         return product.getName() +
                " | Qty: " + quantity +
-               " | Subtotal: $" + getSubtotal();
+               String.format(" | Subtotal: $%.2f", getSubtotal());
     }
 }
